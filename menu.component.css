@@ -7,9 +7,15 @@
           box-sizing: border-box;
       }
 
+      @font-face{
+        font-family: valorant;
+        src: url(/Fonts/valorant/Valorant\ Font.ttf);
+      }
+
       body{
           background-color: #080710;
-          background-image: url(https://i.pinimg.com/736x/22/77/e0/2277e0389cec0543648d20ee564acdf8--pixel-games-pixel-pixel.jpg);
+          background-image: url(https://preview.redd.it/mrd7stj7vtv71.png?auto=webp&s=ea7d6f0593e9c9e533d72a3d0a15f394a04eff46);
+
       }
 
 
@@ -60,7 +66,7 @@
           padding: 50px 35px;
       }
       form *{
-          font-family: 'Poppins',sans-serif;
+          font-family: valorant,sans-serif;
           color: #ffffff;
           letter-spacing: 0.5px;
           outline: none;
