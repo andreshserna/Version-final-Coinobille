@@ -343,7 +343,6 @@ article .juego {
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 4rem;
 }
 .columna_izquierda {
   grid-area: 1 / 1 / 2 / 2;
@@ -458,6 +457,14 @@ h5 {
   width: 20rem;
   height: 10rem;
 }
+
+.img_patrocinador3{
+  width: 30rem;
+  height: 10rem;
+
+}
+
+
 /*Integrantes*/
 .equipo {
   background-color: var(--gris);
